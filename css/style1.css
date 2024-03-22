@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 20px auto;
+}
+.container .header{
+    width: 1200px;
+    font-size: 40px;
+    font-family: arial;
+    color: teal;
+}
+.container .line{
+    width: 1200px;
+    border-top: 2px solid teal;
+    margin-top: 30px;
+}
+.container .content-box{
+    width: 1200px;
+    margin-top: 50px;
+}
+.container .content-box .row{
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.content-box .row .col{
+    width: 390px;
+    height: 350px;
+    border-radius: 5px;
+    
+}
+.col:nth-child(1){
+   background-image: url(https://images.pexels.com/photos/1379640/pexels-photo-1379640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+   background-size: cover;
+}
+.col:nth-child(1)::before{
+    content: "In the News";
+    width: 150px;
+    height: 50px;
+    top: -20px;
+    left: -20px;
+    background-color: #749bc5a8;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: Arial;
+    font-size: 25px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.451);
+}
+.col:nth-child(1)::after{
+    content: "PRESS RELEASE";
+    width: 200px;
+    height: 45px;
+    position: absolute;
+    top: 20px;
+    left: 360px;
+    background-color: #DDEC0C;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-family: Arial;
+    font-size: 20px;
+    color: blue;
+}
+.col:nth-child(2){
+    background-color:#F8F8F8 ;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.539);
+ }
+ .col:nth-child(2) p{
+  
+   width:350px;
+   margin-top: 200px;
+   position: absolute;
+   top: -110px;
+   left: 440px;
+   font-size: 26px;
+   font-family: arial;
+   font-weight: bold;
+  
+ }
+ .col:nth-child(2) .contain-1{
+    width: 240px;
+    position: absolute;
+    font-size: 13px;
+    font-family: arial;
+    top: 10px;
+    left: 490px;
+    border-left: 1px solid orange;
+    padding-left: 15px;
+ }
+.col:nth-child(3){
+    background-color:#056098 ;
+ }
+ 
+ .col:nth-child(3) .fa-twitter{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 45px;
+    left: 840px;
+
+ }
+.col:nth-child(3) .contain-2{
+    width: 300px;
+    position: absolute;
+    font-size: 13px;
+    top: 130px;
+    left: 850px;
+    border-left: 2px solid orange;
+    padding-left: 15px;
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+ }
+ .col:nth-child(3) .fa-arrow-up-right-from-square{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    bottom: 30px;
+    right:30px;
+
+ }
+ .container .header-2{
+    margin-top:60px;
+    width: 1200px;
+    font-size: 40px;
+    font-family: arial;
+    color: teal;
+ }
+ .container .line-2{
+    width: 1200px;
+    border-top: 2px solid teal;
+    margin-top: 30px;
+}
+
+.container .content-box-1{
+    width: 1200px;
+    margin-top: 50px;
+}
+.container .content-box-1 .row-1{
+    height: 350px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+   
+}
+.content-box-1 .row-1 .col-1{
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+
+    
+}
+.col-1:nth-child(1){
+    background-color:#FFFFFF ;
+    position: relative;
+    border-top: 1px solid#80808065;
+    border-bottom: 1px solid #80808065;
+ }
+ .col-1:nth-child(2){
+    background-color: #C4C4C4;
+    background-image: url(../img/girl-image.png);
+    background-size:300px 300px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+ }
+ .col-1:nth-child(1) .box{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width: 100px;
+    height: 350px;
+    background-color:teal;
+    transform: translate(-68px ,0px) skewX(10deg);
+  
+ }
+ .col-1:nth-child(2) .box-1{
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 100px;
+    height: 350px;
+    background-color:#808080;
+    transform: translate(68px ,0px) skewX(10deg);
+ }
+ .col-1 .title{
+    position: absolute;
+    width: 250px;
+    top: 80px;
+    left: 150px;
+    color: teal;
+    font-size: 40px;
+    font-family: arial;
+ }
+ .col-1 .p1{
+    position: absolute;
+    width: 330px;
+    top: 150px;
+    left:150px;
+    font-size:18px;
+    font-family: arial;
+   
+ }
